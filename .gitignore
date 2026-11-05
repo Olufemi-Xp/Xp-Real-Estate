@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs & temporary files
+*.log
+.DS_Store
+Thumbs.db
+.taste-skill/
+
+# Duplicate root-level source assets (tracked in public/assets/ instead)
+/*.PNG
+/HeroVideo.mp4
+/Logo.jpg
+
