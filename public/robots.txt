@@ -1,5 +1,11 @@
+# Hillsview Construction & Real Estate Management Robots Configuration
 User-agent: *
 Allow: /
 
+# Prevent indexing of build artifacts and source maps
+Disallow: /*.map$
+Disallow: /*.json$
+
+# Search Engines Sitemap Index
 Sitemap: https://hillsview.com.ng/sitemap.xml
 
